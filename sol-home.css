@@ -1,0 +1,103 @@
+body{
+    margin: 0%;
+}
+.header-back{
+    position: relative;
+    z-index: 1;
+}
+.header-back1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f0e8e8;
+    z-index: 1000;
+    position: absolute;
+    margin-top: -70vh;
+    margin-left: 12vw;
+    letter-spacing: 3px;
+}
+.header{
+    scroll-behavior: smooth;
+    z-index: 1000;
+    position: absolute;
+    background-color: #000000;
+    box-sizing: border-box;
+    height: 14vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    margin-top: -57%;
+}
+.logo1{
+    height: 7vmin;
+    width: 10vmax;
+    margin-left: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+.logo1:after{
+    color: #ff0000;
+
+}
+.btn{
+    color: #f1f1f1;
+    font: icon;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    text-decoration: transparent;
+    margin: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #ff0000;
+}
+.btn1{
+    text-decoration: transparent;
+    color: #f1f1f1;
+    font: icon;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 14px;
+}
+.btn1:hover{
+    color: #ff0000;
+}
+.btn2{
+    color: #f1f1f1;
+    font: icon;
+    text-decoration: transparent;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 2vmin;
+    margin: 3px;
+}
+.btn2:hover{
+    color: #ff0000;
+}
+.btn3{
+    margin-left: 55%;
+    cursor: pointer;
+
+}
+.btn4{
+    margin-left: 5% ;
+    background-color:transparent;
+    border-radius: 4px;
+    border-color: transparent;
+    height: 5vmin;
+    width: 5vmax;   
+    font-family: Arial;
+    font-size: 1rem;
+    color: #ffffff;
+    letter-spacing: 1.6px;
+    transition: 0.6s;
+    cursor: pointer;
+    justify-content: end;
+    padding-top: -12px;
+}
+.btn4:hover{
+    background: transparent;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(191,13,10,1) 0%, rgba(255,140,0,1) 100%);
+}
